@@ -1,0 +1,50 @@
+package main
+
+import (
+	"sync"
+
+	"github.com/KoLLlaka/__bot/pkg/twitch/config"
+	"github.com/KoLLlaka/__bot/pkg/twitch/connect"
+	"github.com/KoLLlaka/__bot/pkg/twitch/messages"
+)
+
+func main() {
+	// cfg := config.Config{
+	// 	Token:   "oauth:3j4z03urgvvjtzbx78vc0by4w29iry",
+	// 	User:    "bobcehekolliaka",
+	// 	Channel: "kolliaka",
+	// }
+	// go Run(cfg)
+
+	//connConn.ChannelFromString)
+
+	cfg1 := config.Config{
+		Token:   "oauth:3j4z03urgvvjtzbx78vc0by4w29iry",
+		User:    "bobcehekolliaka",
+		Channel: "quiwi_",
+	}
+	go Run(cfg1)
+
+	wg := sync.WaitGroup{}
+	wg.Add(1)
+	wg.Wait()
+}
+
+func Run(cfg config.Config) {
+	conn := connect.ConnectToIRC(cfg)
+
+	msgOutChan := make(chan string)
+
+	connConn := messages.NewConn(conn, cfg, msgOutChan)
+	connConn.ReadMessages()
+
+
+
+	connConn.WriteMessages()
+
+	wg := sync.WaitGroup{}
+	wg.Add(1)
+	wg.Wait()
+
+	conn.Close()
+}

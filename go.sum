@@ -1,0 +1,11 @@
+github.com/BurntSushi/toml v0.4.1 h1:GaI7EiDXDRfa8VshkTj7Fym7ha+y8/XxIgD2okUIjLw=
+github.com/BurntSushi/toml v0.4.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
+github.com/gorilla/websocket v1.5.0 h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=
+github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/joho/godotenv v1.4.0 h1:3l4+N6zfMWnkbPEXKng2o2/MR5mSwTrBih4ZEkkz1lg=
+github.com/joho/godotenv v1.4.0/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
+golang.org/x/sys v0.0.0-20211019181941-9d821ace8654 h1:id054HUawV2/6IGm2IV8KZQjqtwAOo2CYlOToYqa0d0=
+golang.org/x/tools v0.1.11-0.20220316014157-77aa08bb151a h1:ofrrl6c6NG5/IOSx/R1cyiQxxjqlur0h/TvbUhkH0II=
+golang.org/x/tools v0.1.11-0.20220316014157-77aa08bb151a/go.mod h1:Uh6Zz+xoGYZom868N8YTex3t7RhtHDBrE8Gzo9bV56E=
+honnef.co/go/tools v0.3.0 h1:2LdYUZ7CIxnYgskbUZfY7FPggmqnh6shBqfWa8Tn3XU=
+honnef.co/go/tools v0.3.0/go.mod h1:vlRD9XErLMGT+mDuofSr0mMMquscM/1nQqtRSsh6m70=

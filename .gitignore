@@ -1,2 +1,4 @@
 .env
 pkg/twitch/v1/
+pkg/twitch.go.store
+pkg/twitch/main.go

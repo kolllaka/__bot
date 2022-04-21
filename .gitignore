@@ -1,2 +1,2 @@
 .env
-./pkg/twitch/v1
+pkg/twitch/v1/
